@@ -1,8 +1,8 @@
 # NGINX Stack
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/bybatkhuu/stack-nginx/2.create-release.yml?logo=GitHub)](https://github.com/bybatkhuu/stack-nginx/actions/workflows/2.create-release.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/bybatkhuu/stack-nginx?logo=GitHub)](https://github.com/bybatkhuu/stack-nginx/releases)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/humblebeeai/stack-nginx/2.create-release.yml?logo=GitHub)](https://github.com/humblebeeai/stack-nginx/actions/workflows/2.create-release.yml)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/humblebeeai/stack-nginx?logo=GitHub)](https://github.com/humblebeeai/stack-nginx/releases)
 
 This is a docker-compose stack for NGINX with Certbot (Let's Encrypt).
 
@@ -64,8 +64,8 @@ This is a docker-compose stack for NGINX with Certbot (Let's Encrypt).
         - GCP credentials/service accounts - <https://cloud.google.com/iam/docs/service-accounts-create>
         - certbot-dns-google - <https://certbot-dns-google.readthedocs.io/en/stable>
 - Install [**docker** and **docker compose**](https://docs.docker.com/engine/install) in **server**
-    - Nginx docker image: [**bybatkhuu/nginx**](https://hub.docker.com/r/bybatkhuu/nginx)
-    - Certbot docker image: [**bybatkhuu/certbot**](https://hub.docker.com/r/bybatkhuu/certbot)
+    - Nginx docker image: [**humblebeeai/nginx**](https://hub.docker.com/r/humblebeeai/nginx)
+    - Certbot docker image: [**humblebeeai/certbot**](https://hub.docker.com/r/humblebeeai/certbot)
 
 For **DEVELOPMENT**:
 
@@ -89,14 +89,14 @@ cd ~/workspaces/projects
 **OPTION A.** Clone the repository:
 
 ```sh
-git clone https://github.com/bybatkhuu/stack-nginx.git && \
+git clone https://github.com/humblebeeai/stack-nginx.git && \
     cd stack-nginx
 ```
 
 **OPTION B.** Clone with all submodules:
 
 ```sh
-git clone --recursive https://github.com/bybatkhuu/stack-nginx.git && \
+git clone --recursive https://github.com/humblebeeai/stack-nginx.git && \
     cd stack-nginx && \
     git submodule update --init --recursive && \
     git submodule foreach --recursive git checkout main
@@ -105,13 +105,13 @@ git clone --recursive https://github.com/bybatkhuu/stack-nginx.git && \
 **OPTION C.** Clone with all submodules (for **DEVELOPMENT**: git + ssh key):
 
 ```sh
-git clone --recursive git@github.com:bybatkhuu/stack-nginx.git && \
+git clone --recursive git@github.com:humblebeeai/stack-nginx.git && \
     cd stack-nginx && \
     git submodule update --init --recursive && \
     git submodule foreach --recursive git checkout main
 ```
 
-**OPTION D.** Download source code from [releases](https://github.com/bybatkhuu/stack-nginx/releases) page.
+**OPTION D.** Download source code from [releases](https://github.com/humblebeeai/stack-nginx/releases) page.
 
 ### 3. 🛠 Configure the environment
 
