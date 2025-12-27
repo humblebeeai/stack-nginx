@@ -46,7 +46,7 @@ fi
 ## --- Variables --- ##
 # Load from envrionment variables:
 COMPOSE_FILE_PATH="${COMPOSE_FILE_PATH:-compose.yml}"
-REPO_OWNER="${REPO_OWNER:-bybatkhuu}"
+REPO_OWNER="${REPO_OWNER:-humblebeeai}"
 REGISTRY_NAME="${REGISTRY_NAME:-${REPO_OWNER}}"
 SUBMODULE_LIST="
 [
