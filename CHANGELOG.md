@@ -1,5 +1,21 @@
 # Changelog
 
+## v4.3.0-260518 (2026-05-18)
+
+<!-- Release notes generated using configuration in .github/release.yml at v4.3.0-260518 -->
+
+## What's Changed
+### 💥 Breaking Changes
+* ⬆️ Bump tailscale/github-action from 3 to 4 by @dependabot[bot]
+* ⬆️ Bump actions/setup-python from 5 to 6 by @dependabot[bot]
+* ⬆️ Bump actions/checkout from 5 to 6 by @dependabot[bot]
+### ✨ Features
+* ⬆️ Bump https://github.com/gitleaks/gitleaks from v8.28.0 to 8.30.1 by @dependabot[bot]
+* Update certbot/nginx images and bump gitleaks.
+
+
+**Full Changelog**: https://github.com/humblebeeai/stack-nginx/compare/v4.2.1-251025...v4.3.0-260518
+
 ## v4.2.1-251025 (2025-10-25)
 
 <!-- Release notes generated using configuration in .github/release.yml at v4.2.1-251025 -->

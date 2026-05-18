@@ -1,7 +1,7 @@
 services:
   certbot:
-    image: humblebeeai/certbot:3.1.1-251025
-    restart: unless-stopped
+    image: humblebeeai/certbot:3.1.2-260518
+    restart: always
     environment:
       TERM: ${TERM:-xterm}
       TZ: ${TZ:-Asia/Seoul}
@@ -18,10 +18,10 @@ services:
     tty: true
 
   nginx:
-    image: humblebeeai/nginx:3.2.1-251025
+    image: humblebeeai/nginx:3.3.0-260518
     depends_on:
       - certbot
-    restart: unless-stopped
+    restart: always
     environment:
       TERM: ${TERM:-xterm}
       TZ: ${TZ:-Asia/Seoul}
